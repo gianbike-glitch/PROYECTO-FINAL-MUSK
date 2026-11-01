@@ -14,7 +14,7 @@ from src.client_collection import ClientCollection
 from src.sales_collection import SalesCollection
 
 
-
+#Cargamos los datos
 def load_data():
     base_dir = Path(__file__).resolve().parent.parent
 
