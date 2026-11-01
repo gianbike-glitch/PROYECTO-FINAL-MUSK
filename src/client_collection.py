@@ -6,4 +6,10 @@ class ClientCollection:
         for client in self.clients:
             if client_id == client.client_id:
                 return client
-        
+
+    def clients_by_country(self,country):
+        lista_por_pais =[]
+        for i in self.clients:
+            if country == i.country:
+                lista_por_pais.append(i)
+        return(lista_por_pais)
